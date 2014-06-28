@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="network">
+	    <EditTextPreference android:title="ip"
+	        android:summary="set ip"
+	        android:key="ip"
+	        android:inputType="phone"
+	        android:singleLine="true"
+	        android:dialogTitle="input ip plz :)" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="skin">
+	    <CheckBoxPreference android:title="button instead of scratch"
+	        android:summary="take effect after restart"
+	        android:key="scr2btn"
+	        android:defaultValue="false" />
+	    <EditTextPreference android:title="zoom"
+	        android:summary="how much? (not work yet)"
+	        android:key="zoom"
+	        android:defaultValue="100" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="misc">
+	    <!-- <CheckBoxPreference android:title="@string/str_fb"
+	        android:summary="@string/str_fb_desc"
+	        android:key="feedback" /> -->
+	    <CheckBoxPreference android:title="haptic feedback"
+	        android:summary="wanna this? (not work yet)"
+	        android:key="feedback" />
+	    <CheckBoxPreference android:title="hw accel"
+	        android:summary="wanna this?"
+	        android:key="hw_accel" />
+	</PreferenceCategory>
+</PreferenceScreen>

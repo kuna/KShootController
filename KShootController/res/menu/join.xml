@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/reconnect" android:title="reconnect"></item>
+    <item android:id="@+id/settings" android:title="settings"></item>
+    <item android:id="@+id/exit" android:title="exit"></item>
+    <item android:id="@+id/info" android:title="info"></item>
+    
+
+</menu>
